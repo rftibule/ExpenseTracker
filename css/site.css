@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: cadetblue;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.form-group{
+    width: 50%;
+    margin: 0;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-group input{
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+input{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.form-group label{
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#myForm input[type='submit']{
+    border: 0;
+    background-color: darkgreen;
+    color: #fff;
+    padding: 5px 20px;
+    float: right;
+}
+
+.clr{
+    clear:both;
+}
+
+.table{
+    margin-top: 30px;
+}
+
+.table .search-table{
+    float:left
+}
+
+.table .total
+{
+    float: right
+}
+
+#myTable{
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 400px;
+}
+
+#myTable thead tr{
+    background-color: #009879;
+    color: #fff;
+    text-align: left;    
+}
+
+#myTable th,
+#myTable td{
+    padding: 12px 15px;
+}
+
+#myTable tbody tr{
+    border-bottom: solid 1px lightgrey;
+}
+
+#myTable tbody tr td:first-child{
+    font-weight: bold;
+}
+
+#myTable .actionCell{
+    width: 10px;
+    text-align: center;    
+}
+
+#myTable td.actionCell a{
+    color: rgb(207, 21, 21);
+}
+

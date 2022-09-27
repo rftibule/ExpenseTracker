@@ -5,7 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Expense Tracker</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/site.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Expense Tracker V1</h1>
+    </header>
+    <section>
+      <div class="container">
+        <form action="" id="myForm">
+          <div class="form-group">
+            <label>Item</label>
+            <input type="text" name="" id="myItem" placeholder="Item" />
+          </div>
+          <div class="form-group">
+            <label>Date</label>
+            <input type="date" name="" id="myDate" />
+          </div>
+          <div class="form-group">
+            <label>Amount</label>
+            <input type="number" name="" id="myAmount" placeholder="Amount" />
+          </div>
+          <div class="form-group">
+            <label>Quantity</label>
+            <input
+              type="number"
+              name=""
+              id="myQuantity"
+              placeholder="Quanity"
+            />
+          </div>
+          <input type="submit" value="Sumbit" />
+        </form>
+        <div class="clr"></div>
+        <div class="table">
+          <div class="search-table">
+            <input type="text" name="" id="searchTable" placeholder="Search" />
+          </div>
+          <div class="total">
+            <label for="">Total: </label>
+            <input type="text" readonly id="totalAmount" />
+          </div>
+          <div class="clr"></div>
+          <table id="myTable">
+            <thead>
+              <th>Item</th>
+              <th>Amount</th>
+              <th>Quantity</th>
+              <th>Total</th>
+              <th>Date</th>
+              <th class="actionCell">Action</th>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <script src="script/main.js"></script>
+  </body>
 </html>
